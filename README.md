@@ -19,7 +19,7 @@
 
 <h3 align="center">n8n 阿里云 OSS 节点</h3>
 <p align="center">
-    为 n8n 工作流提供阿里云对象存储服务集成
+    为 n8n 工作流提供阿里云对象存储服务集成。解决n8n 2.x中上传错误问题，原项目地址：https://github.com/felix-liuyj/n8n-nodes-alicloud-oss。
     <br />
     <a href="https://github.com/felix-liuyj/n8n-nodes-alicloud-oss"><strong>查看详细文档 »</strong></a>
     <br />
