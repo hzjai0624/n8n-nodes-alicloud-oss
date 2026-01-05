@@ -1,6 +1,6 @@
 {
-  "name": "n8n-nodes-alicloud-oss",
-  "version": "0.0.3",
+  "name": "n8n-nodes-alicloud-oss-2",
+  "version": "0.0.4",
   "description": "Alicloud OSS node for n8n",
   "keywords": [
     "n8n-community-node-package",
@@ -14,12 +14,12 @@
   "license": "MIT",
   "homepage": "",
   "author": {
-    "name": "Felix Liu",
-    "email": "felixliuyj@gmail.com"
+    "name": "jason_dx",
+    "email": "hzjai0624@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/felix-liuyj/n8n-nodes-alicloud-oss.git"
+    "url": "https://gitee.com/jason_dx/n8n-nodes-alicloud-oss.git"
   },
   "engines": {
     "node": ">=20.15"

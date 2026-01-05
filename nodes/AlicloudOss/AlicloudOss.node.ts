@@ -136,19 +136,9 @@ export class AlicloudOss implements INodeType {
 				if (operation === 'upload') {
 					const objectKey = this.getNodeParameter('objectKey', i) as string;
 					const binaryPropertyName = this.getNodeParameter('binaryPropertyName', i) as string;
-					const binaryData = this.helpers.assertBinaryData(i, binaryPropertyName);
-
-					//const putRes = await client.put(objectKey, Buffer.from(binaryData.data));
-                    let buffer;
-                    // n8n 2.x: BinaryDataManager（database / filesystem）
-                    if (binaryData.data === 'database' || (binaryData.id && binaryData.id.startsWith('database:'))) {
-                    buffer = await this.helpers.getBinaryDataBuffer(i, binaryPropertyName);
-                    }
-                    // n8n 1.x: base64
-                    else {
-                    buffer = Buffer.from(binaryData.data, 'base64');
-                    }
-                    const putRes = await client.put(objectKey, buffer);
+					this.helpers.assertBinaryData(i, binaryPropertyName);
+					const buffer = await this.helpers.getBinaryDataBuffer(i, binaryPropertyName);
+					const putRes = await client.put(objectKey, buffer);
 
 					returnData.push({ json: { success: true, url: putRes.url, objectKey } });
 				} else if (operation === 'download') {
