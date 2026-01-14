@@ -276,7 +276,7 @@ npm run publicPublish
 
 1. **克隆项目**
    ```bash
-   git clone https://github.com/felix-liuyj/n8n-nodes-alicloud-oss.git
+   git clone https://github.com/hzjai0624/n8n-nodes-alicloud-oss.git
    cd n8n-nodes-alicloud-oss
    ```
 
@@ -376,7 +376,7 @@ npm run publicPublish
 
 ```bash
 # 克隆项目
-git clone https://github.com/felix-liuyj/n8n-nodes-alicloud-oss.git
+git clone https://github.com/hzjai0624/n8n-nodes-alicloud-oss.git
 cd n8n-nodes-alicloud-oss
 
 # 安装依赖
@@ -398,9 +398,8 @@ npm run lint
 
 ## 联系方式
 
-**作者**：Felix Liu (Cambria Tech)  
-**邮箱**：felixliuyj@gmail.com  
-**项目链接**：[https://github.com/felix-liuyj/n8n-nodes-alicloud-oss](https://github.com/felix-liuyj/n8n-nodes-alicloud-oss)
+**邮箱**：hzjai0624@gmail.com  
+**项目链接**：[https://github.com/hzjai0624/n8n-nodes-alicloud-oss](https://github.com/hzjai0624/n8n-nodes-alicloud-oss)
 
 ---
 
